@@ -1,7 +1,6 @@
 
 
 module.exports = (url) => {
-  const parse = url.split('://')
-  if (parse.length < 2) return
-  if (parse[0] !== 'http') return url
+  const parse = url.match(/(\w+):\/\//)
+  if (parse && parse[1] !== 'http') return url
 }

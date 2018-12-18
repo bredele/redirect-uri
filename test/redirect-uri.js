@@ -24,3 +24,8 @@ test('should not validate URIs without protocols', assert => {
   assert.plan(1)
   assert.equal(validate('www.helloworld.com') == null, true)
 })
+
+test('should not validate wrong URIs without protocols', assert => {
+  assert.plan(1)
+  assert.equal(validate('www.helloworld.com/://what') == null, true)
+})
