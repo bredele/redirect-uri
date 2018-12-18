@@ -5,7 +5,7 @@
  [![Downloads](https://img.shields.io/npm/dm/redirect-uri.svg)](http://npm-stat.com/charts.html?package=redirect-uri)
  [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
 
-Loose validation for safe redirection URIs. This module is especially useful for OAuth redirection URIs where only TLS and native URIs are accepted.
+Loose but safe validation for redirection URIs. This module is especially useful for OAuth redirection URIs where only TLS and native URIs are accepted.
 
 
 ## Usage
