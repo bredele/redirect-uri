@@ -1,0 +1,31 @@
+{
+  "name": "redirect-uri",
+  "version": "1.0.0",
+  "description": "Safe redirection URI",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/redirect-uri.git"
+  },
+  "keywords": [
+    "redirect",
+    "url",
+    "uri",
+    "safe"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/redirect-uri/issues"
+  },
+  "homepage": "https://github.com/bredele/redirect-uri#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
